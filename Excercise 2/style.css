@@ -1,0 +1,126 @@
+body {
+	background-color: #F0FFFF;
+}
+
+h1 {
+	Background-color:#A9A9A9;
+	color: #000080;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 36px;
+
+}
+
+h2 {
+	color: #000080;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 24px;
+
+}
+
+h3 {
+	font-family: "Arial Black", Gadget, sans-serif;
+	text-emphasis: none;
+}
+
+p {
+	font-family: "Arial Black", Gadget, sans-serif;
+}
+
+
+#menu {
+    width: auto;
+    height: 50px;
+    font-size: 16px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-shadow: 3px 2px 3px #333333;
+    background-color: yellow;
+        border-radius: 8px;
+		padding: 0px;
+}
+
+#menu ul {
+    list-style-type: none;
+    margin-bottom: 10px;
+    padding: 0px;
+}
+
+
+
+
+#menu li {
+    float: left;
+    padding: 0px;
+	
+	
+
+}
+
+a {
+    display: block;
+    width: 60px;
+	width: 200px;
+	border-radius: 10px;
+	box-shadow: black 1px 2px 1px;
+}
+
+a:hover {
+	Background-color: white;
+}
+
+
+
+#rectangle {
+	Background: black;
+	color: black;
+	width: auto; 
+	height: 10px;
+	margin-top: 0px;
+}
+
+body > ol > li {
+	
+    height:auto;
+	width: 800px;
+	margin-bottom: 30px;
+    padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 50px;
+	border-style: solid;
+	border-width: 20px;
+	border-color: white;
+	border-radius: 30px;
+	background-color: #FFC;
+}
+
+
+body > ol > li > ol > li {
+	
+    margin-bottom: 10px;
+    padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 20px;
+	border-style: groove;
+	border-width: 5px;
+	border-color: #666;
+	border-radius: 10px;
+	border-opacity:0.5;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	
+}
+
+
+body > ol > li > ul > li {
+	font-family: "Comic Sans MS", cursive;
+}
+
+
+img {
+	width: 500px;
+	height: auto;
+	border-radius: 10px
+}
+	
+
+
+
