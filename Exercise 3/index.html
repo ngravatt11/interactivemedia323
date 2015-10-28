@@ -1,35 +1,194 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE 
+<hmtl>
 <head>
-	<title>Portrait #1</title>
+	<title>Apple Portrait </title>
 
 	<style>
 		
-		 ul {
-			list-style-type: none;
-
-		}
-
-
-		li{
-			float: left;
-
-		}
-
-		 a {
+		body {
+			margin: 0;
 			display: block;
-			width: 60px;
-			display: inline;
-			margin: 5px 20px 5px 20px;
+		}
+		
+		#nav {
+			width: 1040px;
+			height: 40px;
+			background: black;
+			opacity: 0.5;
+			position: absolute;
+			z-index: 1;
+			alignment-adjust: center;
+			
+			
+			
+		}
+		
+		
+		
+		#nav ul li {
+			list-style-type: none;
+			margin: -20px -20px -20px -20px;
+			padding-left: 0px;
+			
+			
+			
+		}
+		
+		#nav ul li a {
+			text-decoration: none;
+			float: left;
+			display: block;
+			padding: 10px 40px;
+			color: white;
+			font-family: Arial, Helvetica, sans-serif;
+			text-align: center;
+		}
+		
+		#nav ul li a:hover {
+			color: grey;
+			
 		}
 
 		
 
-		.image {
-			
-			border: 1px solid black;
-			background-color: grey;
+		
+		
+		
+		#frame-control {
+			margin-left: 430px;
 		}
+		
+		#frame-control span button{
+			padding-right: 2em;
+			cursor: pointer;
+			height: 1px;
+			width: 1px;
+			radius: 3px;
+			alignment-adjust: center;
+			position: relative;
+			top: 550px;
+			z-index: 1;
+			
+			
+			
+		}
+		
+		#frame-control span button a:hover {
+			
+			border: 1px solid grey;
+		}
+		
+		#frame {
+			
+			position: absolute;
+			height: 580px;
+			width: 1040px;
+			margin: 0px auto 10px;
+			
+		}
+		
+		#frame img{
+			
+			position: absolute;
+			
+			-webkit-transition: opacity 1s ease-in-out;
+			-moz-transition: opacity 1s ease-in-out;
+			-o-transition: opacity 1s ease-in-out;
+			transition: opacity 1s ease-in-out;
+			bakground: grey;
+			
+			
+		}
+		
+		
+		
+		
+		#new-stuff {
+			display: inline-block;
+			margin: 0 auto;
+			padding: 1px 1px 1px 1px;
+			float: left;
+			position: absolute;
+			top: 581px;
+			z-index: 1;
+			
+			
+		}
+		
+		#new-stuff img {
+			Background: grey;
+			Height: 200px;
+			width: 256px;
+			padding: 0.1px;
+			
+			
+			
+		}
+		
+			
+			
+	#directory {
+		z-index: 1;
+		top: 785px;
+		list-style-type: none;
+		clear: both;
+		position: absolute;
+		z-index: 1
+		margin-top: 5px;
+		background: grey;
+		width: 1040px;
+		height: 1000px;
+		
+		
+	}
+	
+	#directory table {
+		width: 100%;	
+		
+	}
+	
+	#directory td {
+		margin-top: 5px;
+		table-style-type: none;
+		 
+	}
+	
+	#directory a {
+		text-decoration: none;	
+		display: block;
+		color: black;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 11pt;
+		
+		
+	}
+
+
+	#Contact {
+		top: 1050px;
+		z-index: 1;
+		position: absolute;	
+		background: grey;
+		
+	}
+	
+	p#Contact {
+		font-size: 8pt;
+		font-family: Arial, Helvetica, sans-serif;	
+	}
+	
+	#copyright {
+		top: 1100px;
+		position: absolute;
+		z-index: 1;
+		
+	}
+	
+	#copyright ul{
+			list-style-type: none;
+			text-decoration: none;
+			float: left;
+	}
 	</style>
 
 </head>
@@ -51,11 +210,193 @@
 	</ul>
 </div>
 
-<div class="image">
+<div id="frame" style="background: green;">
+  <img class="first" src="#" />
+  <img class="second" src="#" />
+  <img class="third" src="#"/>
+  <img class="fourth" src="#"/>
+  <img class="fifth" src="#"/>
+</div>
+
+<p id="frame-control">
+	<span class="one"><button></button></span>
+    <span class="two"><button></button></span>
+    <span class="three"><button></button></span>
+    <span class="four"><button></button></span>
+    <span class="five"><button></button></span>
+    
+</p>
+
+
+<div id="new-stuff">
+	<span class="one"><img src="#" /></span></span>
+	<span class="two"><img src="#"/></span></span>
+	<span class="three"><img src="#"/></span></span>
+	<span class="four"><img src="#"/></span></span>
 </div>
 
 
+<foot id="directory">
+	<table style="1040px">
+        	<tr>
+            	<th width="200" align="left"><strong>................</strong></th>
+                <th width="200" align="left"><strong>.........</strong></th>
+                <th width="200" align="left"><strong>.............</strong></th>
+                <th width="200" align="left"><strong>.......</strong></th>
+                <th width="200" align="left"><strong>........</strong></th>
+              
+                	
+             </tr>
+             
+             <tr>
+            	
+                	<td><a href="#">...</a></td>
+                    <td><a href="#">...</a></td>
+                    <td><a href="#">...</a></td>
+                    <td><a href="#">...</a></td>
+                    <td><a href="#">...</a></td>
+                    
+                    
+             </tr>
+         
+        	<tr>
+            
+                	<td><a href="#">...</a></td>
+                    <td><a href="#">...</a></td>
+                    <td><a href="#">...</a></td>
+                    <td><a href="#">...</a></td>
+                    <td><a href="#">...</a></td>
+                  
+                    
+             </tr>
+             
+             <tr>
+            	
+                	<td><a href="#">...</a></td>
+                    <td><a href="#">...</a></td>
+                    <td></td>
+                    <td><a href="#">...</a></td>
+                    <td><a href="#">...</a></td>
+                    
+                    
+             </tr>
+         
+        	<tr>
+            
+                	<td><a href="#">...</a></td>
+                    <td><a href="#">...</a></td>
+                    	<th align="left">.......</th>
+                    <td></td>
+                    <td><a href="#">...</a></td>
+                  
+                    
+             </tr>
+             
+             <tr>
+            	
+                	<td><a href="#">...</a></td>
+                    <td><a href="#">...</a></td>
+                    <td><a href="#">...</a></td>
+                    	<th align="left">.......</td>
+                    <td><a href="#">...</a></td>
+                    
+                    
+             </tr>
+         
+        	<tr>
+            
+                	<td><a href="#">...</a></td>
+                    <td><a href="#">...</a></td>
+                    <td><a href="#">...</a></td>
+                    <td><a href="#">...</a></td>
+                    <td><a href="#">...</a></td>
+                  
+                    
+             </tr>
+             
+             <tr>
+            	
+                	<td><a href="#">...</a></td>
+                    <td><a href="#">...</a></td>
+                    <td><a href="#">...</a></td>
+                    <td><a href="#">...</a></td>
+                    <td><a href="#">...</a></td>
+                    
+                    
+             </tr>
+         
+        	<tr>
+            
+                	<td><a href="#">...</a></td>
+                    <td><a href="#">...</a></td>
+                    <td><a href="#">...</a></td>
+                    <td><a href="#">...</a></td>
+                    <td><a href="#">...</a></td>
+                  
+                    
+             </tr>
+             
+             <tr>
+            	
+                	<td><a href="#">...</a></td>
+                    <td><a href="#">...</a></td>
+                    <td><a href="#">...</a></td>
+                    <td><a href="#">...</a></td>
+                    <td></td>
+                    
+                    
+             </tr>
+         
+        	<tr>
+            
+                	<td><a href="#">...</a></td>
+                    <td><a href="#">...</a></td>
+                    <td><a href="#">...</a></td>
+                    <td><a href="#">...</a></td>
+                    <td></td>
+                  
+                    
+             </tr>
+             
+             <tr>
+            	
+                	<td></td>
+                    <td><a href="#">...</a></td>
+                    <td><a href="#">...</a></td>
+                    <td><a href="#">...</a></td>
+                    <td></td>
+                    
+                    
+             </tr>
+         
+        	<tr>
+            
+                	<td></td>
+                    <td><a href="#">...</a></td>
+                    <td><a href="#">...</a></td>
+                    <td><a href="#">...</a></td>
+                    <td></td>
+                  
+                    
+             </tr>
+         </table>
+         
+         
 
+</foot>
+
+
+<p id="Contact">More ways to shop: Visit an <a href="#">Apple Store</a>, call 1-800-MY-APPLE, or <a href="#">find a reseller</a>.
+
+<div id="copyright">
+	<ul>
+		<li> .................</li>
+		<li> <a href=""> ... </a></li>
+		<li> <a href=""> ... </a></li>
+		<li> <a href=""> ... </a></li>
+		
+	</ul>
+</div>
 </body>
 
 </html>
