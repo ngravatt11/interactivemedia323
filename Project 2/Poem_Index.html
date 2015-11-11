@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>To a Poor Old Woman</title>
+  
+  <style>
+  
+  body {
+	background-color: #250025;  
+  }
+  
+  p {
+	  
+	position: relative;
+	margin: 25px 0px 0px 25px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 24px;
+	letter-spacing: 3px;
+	color: #FFF;  
+	height: 60px;
+	line-height: 20px;
+  }
+  
+   span {
+	  
+	font-size: 14px;
+	color: #FFF;
+	margin-left: 20px;
+	line-height: 15px;  
+	
+  }
+  
+  
+  .canvas {
+		
+		position: relative; 
+		width: 1920px;
+		height: 680px;
+		background-color: #250025;
+		margin-left: 10px;
+		
+  }
+  
+  			
+			
+			.level	{
+				position: absolute;
+				width: 288px;
+				height: 680px;
+					
+			}
+			
+			
+			.one {
+				margin-left: 0px;	
+			}
+			
+			
+			.two {
+				margin-left: 400px;	
+			}
+			
+			.three {
+				margin-left: 800px;	
+			}
+			
+			.four {
+				margin-left: 1200px;	
+			}
+			
+			.five{
+				margin-left: 1600px;	
+			}
+			
+			
+			
+			/*----------lamp------*/
+			
+			.lamp	{
+				position: absolute;
+				width: 100px;
+				height: 60px;
+				margin: 90px 94px 530px 94px;
+				z-index: 1;
+				
+			}
+		
+			
+					.bulb {
+						position: absolute;
+						height:30px;
+						width:45px;
+						border-radius: 0px 0px 30px 30px;
+						-moz-border-radius: 0px 0px 30px 30px;
+						-webkit-border-radius: 0px 0px 30px 30px;
+						background:yellow;	
+						box-shadow: 0px 0px 30px yellow;
+						margin: 30px 27.5px 0px 27.5px;
+						
+						    -webkit-animation-name: one; /* Chrome, Safari, Opera */
+						-webkit-animation-duration: 1s; /* Chrome, Safari, Opera */
+						-webkit-animation-iteration-count: infinite; /* Chrome, Safari, Opera */
+						animation-name: flux;
+						animation-duration: 10s;
+						animation-iteration-count: infinite;
+						
+						
+					}
+					
+					/* Chrome, Safari, Opera */
+					@-webkit-keyframes flux {
+						0%   {background-color: Yellow; }
+					
+						50%  {background-color: white; }
+						
+						100% {background-color: yellow; }	
+										
+					}
+					
+					.hood {
+						    position: absolute;
+							width: 0; 
+							height: 0; 
+							border-left: 50px solid transparent;
+							border-right: 50px solid transparent;
+							border-bottom: 40px solid grey;
+							margin: 5px 0 0 0;
+						
+							
+					}
+					
+					
+					.body {
+						position: absolute;
+						width: 35px;
+						height: 26px;	
+						background-color: grey;
+						margin-top: 6px;
+						margin-left: 32.5px;
+						
+						
+					}
+					
+					
+					.cap {
+						width: 25px;
+						height: 16px;
+						background: grey;
+						-moz-border-radius: 12.5px / 8px;
+						-webkit-border-radius: 12.5px / 8px;
+						border-radius: 12.5px / 8px;
+						margin-top: 0px;
+						margin-left: 37.5px;	
+					}
+					
+					
+				/*----------lamp------*/
+				
+				
+
+			
+			
+			
+			/*----------light------*/
+			
+			.light {
+			 	position: absolute;
+				width: 0; 
+				height: 0; 
+				border-left: 194px solid transparent;
+				border-right: 194px solid transparent;
+				border-bottom: 680px solid white;
+				margin: 0px 50px 0px -50px;
+				opacity: 0.5;
+				
+				
+				
+			}
+			
+									/*----------plums------*/
+				
+										.group {
+											position: absolute;
+											width: 240px;
+											height: 70px;
+											
+											margin: 600px 30px 0px -110px;
+										}
+										
+										.mask {
+											position: absolute;
+											width: 395px;
+											height: 680px;
+											margin: -680px 20px 0px -90px;
+											background: -webkit-linear-gradient(-90deg,#250025, #250025, transparent);	
+											z-index: -2;
+										}
+										
+												.plum {
+													position: absolute;
+													float: left;
+													z-index: 1;
+													
+												
+												}
+													
+														
+														.first {
+															  width: 40px;
+															  height: 40px;
+															  border-radius: 50%;
+															  box-shadow: 25px 15px 0 0 #3F003F;
+															  margin: -40px 240px 80px -40px;
+															  
+															  -webkit-transition: width .5s ease, height .5s ease;
+															-moz-transition: width .5s ease, height .5s ease;
+															-o-transition: width .5s ease, height .5s ease;
+															-ms-transition: width .5s ease, height .5s ease;
+															transition: width .5s ease, height .5s ease;
+																
+														}
+														
+														
+														.first:hover {
+															width: 50px;
+															height: 50px;
+																
+														}
+														
+														
+														
+														
+														.second {
+															  width: 35px;
+															  height: 35px;
+															  border-radius: 50%;
+															  background-color: #3F003F;
+															  margin: 15px 0px 5px 40px;
+															  
+															    -webkit-transition: width .5s ease, height .5s ease;
+															-moz-transition: width .5s ease, height .5s ease;
+															-o-transition: width .5s ease, height .5s ease;
+															-ms-transition: width .5s ease, height .5s ease;
+															transition: width .5s ease, height .5s ease;
+																
+														}
+														
+														.second:hover {
+															width: 45px;
+															height: 45px;	
+														}
+														
+														
+														.third {
+															  width: 40px;
+															  height: 40px;
+															  border-radius: 50%;
+															  box-shadow: -25px -15px 0 0 #3F003F;
+															  margin: 0px 0px 0px 120px ;
+															 
+															    -webkit-transition: width .5s ease, height .5s ease;
+															-moz-transition: width .5s ease, height .5s ease;
+															-o-transition: width .5s ease, height .5s ease;
+															-ms-transition: width .5s ease, height .5s ease;
+															transition: width .5s ease, height .5s ease;
+																
+														}
+														
+														.third:hover {
+															width: 50px;
+															height: 50px;	
+														}
+														
+														
+														.fourth {
+															  width: 50px;
+															  height: 50px;
+															  border-radius: 50%;
+															  background-color: #3F003F;
+															  margin: 25px 0px 0px 140px;
+																
+																
+																  -webkit-transition: width .5s ease, height .5s ease;
+															-moz-transition: width .5s ease, height .5s ease;
+															-o-transition: width .5s ease, height .5s ease;
+															-ms-transition: width .5s ease, height .5s ease;
+															transition: width .5s ease, height .5s ease;
+														}
+														
+														.fourth:hover {
+															width:40px;
+															height: 40px;	
+														}
+														
+														.fifth {
+															  width: 45px;
+															  height: 45px;
+															  border-radius: 50%;
+															  box-shadow: 22px 12px 0 0 #3F003F;
+															  margin: 0px 0px 0px 180px ;
+															 
+															    -webkit-transition: width .5s ease, height .5s ease;
+															-moz-transition: width .5s ease, height .5s ease;
+															-o-transition: width .5s ease, height .5s ease;
+															-ms-transition: width .5s ease, height .5s ease;
+															transition: width .5s ease, height .5s ease;
+																
+														}
+														
+														.fifth:hover {
+															width:40px;
+															height: 40px;	
+														}
+														
+
+		
+  
+  			/*----------plums------*/
+			
+			
+			
+			
+			.cover {
+			 	position: absolute;
+				width: 400px; 
+				height: 580px; 
+				background: #250025;
+				margin: 100px 0px 0px -200px;
+				z-index: -1;
+				-webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 2s ease-out;
+  transition: background-color 2s ease-out;
+			}
+			
+			.cover:hover {
+			 	background: none;
+				cursor: pointer;
+  
+				
+				
+			}
+			
+			
+			
+			
+			/*----------light------*/
+ 
+ 
+ 
+ 			.concrete {
+				position: absolute;
+				width: 1970px;
+				height: 20px;
+				margin: 680px 0px 0px -50px;
+				background-color: grey; 	
+			}
+			
+			
+			
+			
+</style>
+
+
+  </head>
+
+<body>
+
+<p> <u>To a Poor Old Woman </u>
+	<br>
+    
+    <span>By William Carlos Williams</span>
+    
+    <br> 
+    
+    <span>1909-1939</span>
+</p>
+
+
+<div class="canvas">
+
+<!-------------------------level two-------------------------->
+
+	<div class="level one">
+    
+			<!---------Lamp-------->
+            
+	
+    	
+        <div class="lamp">
+        
+        	<div class="bulb"></div>
+            
+            <div class="hood"></div>
+            
+            <div class="body"></div>
+             
+            <div class="cap"></div>
+           
+        </div>   
+    
+
+			<!---------Lamp-------->
+            
+            
+            			
+                        
+                        <!--------light------->
+		
+		
+        <div class="light">
+        
+        	<div class="cover"></div>
+        	<!--------plums------->
+        <div class="group">
+            
+             
+             
+             
+                <a href="Level1.1.html"><div class="plum first"></div></a>
+                
+                <a href="Level1.2.html"><div class="plum second"></div></a>
+                
+                <a href="Level1.3.html"><div class="plum third"></div></a>
+                
+                <a href="Level1.4.html"><div class="plum fourth"></div></a>
+                
+                <a href="Level1.5.html"><div class="plum fifth"></div></a>
+        	
+            <div class="mask"></div>
+            
+            
+          	
+                   
+        </div>
+ 
+                        
+                        <!--------plums------->
+        </div>
+        
+		
+                        
+                        <!--------light------->
+                        
+	</div>                        
+                        
+<!-------------------------level one--------------------------> 
+
+
+
+
+
+<!-------------------------level two-------------------------->
+
+	<div class="level two">
+    
+			<!---------Lamp-------->
+            
+	
+    	
+        <div class="lamp">
+        
+        	<div class="bulb"></div>
+            
+            <div class="hood"></div>
+            
+            <div class="body"></div>
+             
+            <div class="cap"></div>
+           
+        </div>   
+    
+
+			<!---------Lamp-------->
+            
+            
+            			
+                        
+                        <!--------light------->
+		
+		
+        <div class="light">
+        
+        	<div class="cover"></div>
+        	<!--------plums------->
+        <div class="group">
+            
+             
+             
+             
+                <a href="Level2.1.html"><div class="plum first"></div></a>
+                
+                <a href="Level2.2.html"><div class="plum second"></div></a>
+                
+                <a href="Level2.3.html"><div class="plum third"></div></a>
+                
+                <a href="Level2.4.html"><div class="plum fourth"></div></a>
+                
+                <a href="Level2.5.html"><div class="plum fifth"></div></a>
+        	
+            <div class="mask"></div>	
+                   
+        </div>
+ 
+                        
+                        <!--------plums------->
+        </div>
+        
+		
+                        
+                        <!--------light------->
+                        
+	</div>                        
+                        
+<!-------------------------level two--------------------------> 
+
+
+
+<!-------------------------level three-------------------------->
+
+	<div class="level three">
+    
+			<!---------Lamp-------->
+            
+	
+    	
+        <div class="lamp">
+        
+        	<div class="bulb"></div>
+            
+            <div class="hood"></div>
+            
+            <div class="body"></div>
+             
+            <div class="cap"></div>
+           
+        </div>   
+    
+
+			<!---------Lamp-------->
+            
+            
+            			
+                        
+                        <!--------light------->
+		
+		
+        <div class="light">
+        
+        	<div class="cover"></div>
+        	<!--------plums------->
+        <div class="group">
+            
+             
+             
+             
+                <a href="Level3.1.html"><div class="plum first"></div></a>
+                
+                <a href="Level3.2.html"><div class="plum second"></div></a>
+                
+                <a href="Level3.3.html"><div class="plum third"></div></a>
+                
+                <a href="Level3.4.html"><div class="plum fourth"></div></a>
+                
+                <a href="Level3.5.html"><div class="plum fifth"></div></a>
+        	
+            <div class="mask"></div>	
+                   
+        </div>
+ 
+                        
+                        <!--------plums------->
+        </div>
+        
+		
+                        
+                        <!--------light------->
+                        
+	</div>                        
+                        
+<!-------------------------level three--------------------------> 
+
+
+
+
+
+<!-------------------------level four-------------------------->
+
+	<div class="level four">
+    
+			<!---------Lamp-------->
+            
+	
+    	
+        <div class="lamp">
+        
+        	<div class="bulb"></div>
+            
+            <div class="hood"></div>
+            
+            <div class="body"></div>
+             
+            <div class="cap"></div>
+           
+        </div>   
+    
+
+			<!---------Lamp-------->
+            
+            
+            			
+                        
+                        <!--------light------->
+		
+		
+        <div class="light">
+        
+        	<div class="cover"></div>
+        	<!--------plums------->
+        <div class="group">
+            
+             
+             
+             
+                <a href="Level4.1.html"><div class="plum first"></div></a>
+                
+                <a href="Level4.2.html"><div class="plum second"></div></a>
+                
+                <a href="Level4.3.html"><div class="plum third"></div></a>
+                
+                <a href="Level4.4.html"><div class="plum fourth"></div></a>
+                
+                <a href="Level4.5.html"><div class="plum fifth"></div></a>
+        	
+            <div class="mask"></div>	
+                   
+        </div>
+ 
+                        
+                        <!--------plums------->
+        </div>
+        
+		
+                        
+                        <!--------light------->
+                        
+	</div>                        
+                        
+<!-------------------------level four--------------------------> 
+
+
+
+
+
+
+<!-------------------------level two-------------------------->
+
+	<div class="level five">
+    
+			<!---------Lamp-------->
+            
+	
+    	
+        <div class="lamp">
+        
+        	<div class="bulb"></div>
+            
+            <div class="hood"></div>
+            
+            <div class="body"></div>
+             
+            <div class="cap"></div>
+           
+        </div>   
+    
+
+			<!---------Lamp-------->
+            
+            
+            			
+                        
+                        <!--------light------->
+		
+		
+        <div class="light">
+        
+        	<div class="cover"></div>
+        	<!--------plums------->
+        <div class="group">
+            
+             
+             
+             
+                <a href="Level5.1.html"><div class="plum first"></div></a>
+                
+                <a href="Level5.2.html"><div class="plum second"></div></a>
+                
+                <a href="Level5.3.html"><div class="plum third"></div></a>
+                
+                <a href="Level5.4.html"><div class="plum fourth"></div></a>
+                
+                <a href="Level5.5.html"><div class="plum fifth"></div></a>
+        	
+            <div class="mask"></div>	
+                   
+        </div>
+ 
+                        
+                        <!--------plums------->
+        </div>
+        
+		
+                        
+                        <!--------light------->
+                        
+	</div>                        
+                        
+<!-------------------------level five--------------------------> 
+
+  <div class="concrete"></div>
+  
+  
+  
+</div>
+
+
+</body>
+</html>
