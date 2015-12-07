@@ -1,0 +1,121 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.canvas {
+	margin: auto;
+	width: 1024px;
+	height: 960px;
+	position: relative; 
+	
+}
+
+.Photo  {
+	
+	
+	position: absolute;	
+	margin: auto;
+	z-index: -1;
+	
+
+}
+
+.Growing {
+	position: absolute;
+	height: 50px;
+	width: 100px;
+	
+	margin: 150px 300px 700px 450px;	
+	z-index: 1;
+}
+
+
+
+
+
+
+
+
+
+
+.box {
+	
+	position: absolute;
+	z-index: 1;
+	
+}
+
+.ninety-six {
+	height: 10px;
+	width: 20px;
+	margin: 45px 1000px 720px 485px;
+}
+
+.zero-seven {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 40px 65px 15px 0;
+	border-color: transparent transparent transparent transparent;
+	margin: 282px 1000px 720px 445px;
+	-webkit-transform: rotate(30deg);
+}
+
+.ten {
+	height: 10px;
+	width: 38px;
+	-webkit-transform: rotate(-15deg);
+	margin: 145px 1000px 720px 452px;
+}
+
+.twelve {
+	height: 10px;
+	width: 20px;
+	margin: 45px 1000px 720px 510px;
+	
+}
+
+
+.thirteen {
+	height: 15px;
+	width: 50px;
+	-webkit-transform: rotate(5deg);
+	margin: 237px 1000px 720px 465px;
+}
+
+.fourteen {
+	height: 18px;
+	width: 40px;
+	-webkit-transform: rotate(-20deg);
+	margin: 150px 1000px 720px 508px;
+}
+
+.Full {
+	Font-Family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	Font-weight: bold;
+	Color: Red;
+	Font-Size: 18px;
+	text-align: center;
+	Margin: 150px 50px 300px 620px;	
+}
+
+.Grow {
+	height: 13px;
+	width: 60px;
+	-webkit-transform: rotate(-15deg);
+	margin: 153px 1000px 720px 452px;
+}
+
+.with {
+	height: 50px;
+	width: 20px;
+	margin: 150px 1000px 720px 490px;
+	-webkit-transform: rotate(-13deg);	
+}
+
+.Pain {
+	height: 20px;
+	width: 50px;
+	margin: 180px 1000px 720px 500px;
+		
+}
+
